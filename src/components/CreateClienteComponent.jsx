@@ -233,7 +233,7 @@ class CreateClienteComponent extends Component {
                     alert("Erro ao salvar o Cliente, contate o Thiagão do Gongolo!!!")
 
                     res.data.fieldErrors.forEach(fieldError => {
-                      if(fieldError.field == 'email'){
+                      if(fieldError.field === 'email'){
                         //setEmailError(fieldError.message);
                       }
           
