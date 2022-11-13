@@ -37,7 +37,6 @@ class CreateClienteComponent extends Component {
             numProcesso:'',
             origemTramitacao:'',
             numPrecatorio:'',
-            nomeConjugue:          '',
             rgConjugue:            '',
             cpfConjugue:           '',
             nacionalidadeConjugue: '',
@@ -125,7 +124,6 @@ class CreateClienteComponent extends Component {
                     rgConjugue:            cliente.rgConjugue,
                     cpfConjugue:           cliente.cpfConjugue,
                     nacionalidadeConjugue: cliente.nacionalidadeConjugue,
-                    nomeConjugue:          cliente.nomeConjugue,
                     profissaoConjugue:     cliente.profissaoConjugue,
 
                     logradouroConjugue:    cliente.logradouroConjugue,
@@ -155,7 +153,6 @@ class CreateClienteComponent extends Component {
                     cep:             cliente.cep,
                     percentual:      cliente.percentual,
                     cliente:         cliente,
-                    nomeConjugue:    cliente.nomeConjugue,
                     profissao:       cliente.profissao,
                     numProcesso:     cliente.numProcesso,
                     origemTramitacao:cliente.origemTramitacao,
@@ -184,7 +181,6 @@ class CreateClienteComponent extends Component {
             rgConjugue:            this.state.rgConjugue,
             cpfConjugue:           this.state.cpfConjugue,
             nacionalidadeConjugue: this.state.nacionalidadeConjugue,
-            nomeConjugue:    this.state.nomeConjugue,
             profissaoConjugue:       this.state.profissaoConjugue,
 
             logradouroConjugue:    this.state.logradouroConjugue,
