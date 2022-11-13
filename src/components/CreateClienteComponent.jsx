@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import React, { Component } from 'react'
 import ClienteService from '../services/ClienteService';
 
